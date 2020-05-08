@@ -7,6 +7,18 @@
   --color-5: #cff1af; /* */
 }
 
+/* notice post mouse hovered */
+#article-list > .article-list-row.notice:hover { animation: 30s anim_hovered_background; }
+
+.pagination > li > a:hover { animation: infinite AquaLinkBG 1.5s; }
+.pagination > .active > a,
+.pagination > .active > a:focus,
+.pagination > .active > a:hover,
+.pagination > .active > span,
+.pagination > .active > span:focus,
+.pagination > .active > span:hover
+{ background-color: var(--color-4); border-color: var(--color-4); }
+
 /* ButtonAnim */
 .btn-primary { background: var(--color-4); border-color: var(--color-1); }
 .btn-primary:hover { animation: infinite rainbowLinkBG 3s; }
