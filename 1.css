@@ -9,7 +9,7 @@
 
 /* ButtonAnim */
 .article-list { background: var(--color-4); border-color: var(--color-1); }
-.article-list:hover { animation: infinite rainbowLinkBG 3s; }
+.article-list:hover { animation: infinite AquaLinkBG 3s; }
 
 /* keyframe animations */
 @keyframes rainbowLink {
